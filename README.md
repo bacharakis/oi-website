@@ -1,8 +1,3 @@
-Install Gems required to compile project
-`bundle install`  
+A static website for the Open Innovation team, Mozilla.
 
-Then run `bundle exec jekyll serve` to develop on localhost.   
-
-Once completed run `bundle exec jekyll build` to build in production mode. The contents of the _site folder can we uploaded to the server.
-
-The config.yml file contains important information, such the baseurl and url of the website.
+With the head section on the four HTML pages, the 

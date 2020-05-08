@@ -20,9 +20,7 @@ function mediumBlogPosts() {
         output += `
          <section class="mzp-c-card mzp-c-card-extra-small">
             <a class="mzp-c-card-block-link" rel="noopener noreferrer" href="${item.link}">
-              <div class="mzp-c-card-media-wrapper">
-                <img src="${item.thumbnail}" class="mzp-c-card-image">
-              </div>
+              <div class="mzp-c-card-media-wrapper" style="background-image:url(${item.thumbnail}); background-position:50% 50% !important; background-size: cover; min-height: 180px;"></div>
                <div class="mzp-c-card-content">
                 <div class="mzp-c-card-tag">${shortenText(item.pubDate,0 ,10)}</div>
                 <h2 class="mzp-c-card-title">${item.title}</h2>
